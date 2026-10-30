@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Electro-Coach: pool and billiards practice coach app</title>
+<meta name="description" content="Electro-Coach is a free pool and billiards practice app for Android, iPhone and computers: drills you log with a tap, stroke feedback from your drill results, a shot visualizer for cut angles and the ghost ball, a tournament shot clock, your pre-shot routine, and progress from your Railbird data. No account; your data stays on your device.">
+<meta name="keywords" content="pool practice app, billiards practice app, pool drills, billiards drills, 8-ball, 9-ball, 10-ball, stroke feedback, cue ball control, draw shot, follow shot, stop shot, shot visualizer, cut angle, ghost ball, aiming, pre-shot routine, shot clock, Railbird, FargoRate, pool training">
+<meta name="author" content="Lela Andrews">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://electro-coach.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Electro-Coach">
+<meta property="og:title" content="Electro-Coach: pool and billiards practice coach app">
+<meta property="og:description" content="Drills you log with a tap, stroke feedback from your drill results, a shot visualizer, a shot clock and progress from your Railbird data. Free, no account.">
+<meta property="og:url" content="https://electro-coach.com/">
+<meta property="og:image" content="https://electro-coach.com/images/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Electro-Coach: the shot visualizer and the Stroke check on a phone">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Electro-Coach: pool and billiards practice coach app">
+<meta name="twitter:description" content="Drills you log with a tap, stroke feedback, a shot visualizer and progress from your Railbird data. Free, no account.">
+<meta name="twitter:image" content="https://electro-coach.com/images/og.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Electro-Coach", "url": "https://electro-coach.com/", "applicationCategory": "SportsApplication", "operatingSystem": "Android, iOS (web app), Windows, macOS, Linux (web)", "description": "A pool and billiards practice coach: structured practice plans, drills you log with a tap, stroke feedback from drill results, a shot visualizer, a tournament shot clock, a pre-shot routine and progress tracking from Railbird shot data.", "image": "https://electro-coach.com/images/og.jpg", "screenshot": ["https://electro-coach.com/images/home.jpg", "https://electro-coach.com/images/visualizer.jpg", "https://electro-coach.com/images/stroke.jpg"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Person", "name": "Lela Andrews"}, "downloadUrl": "https://github.com/lvandrews/Electro-Coach/releases/latest/download/electro-coach.apk", "featureList": ["Practice plans with block timers", "Pool drills logged with a tap", "Stroke feedback from drill results", "Shot visualizer: cut angle, ghost ball, contact point", "Progressive ghost run-out practice", "Tournament shot clock and straight pool scoring", "Pre-shot routine", "Progress, heat maps and shot model from Railbird data", "Practice journal"]}</script>
+<meta name="theme-color" content="#2c1d14">
+<link rel="icon" href="images/icon-192.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#"><img src="images/icon-192.png" alt="">Electro-Coach</a>
+    <nav aria-label="Sections">
+      <a class="opt" href="#what">What it does</a>
+      <a class="opt" href="#railbird">Railbird</a>
+      <a href="#get">Get the app</a>
+      <a href="#privacy">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>A pool practice coach that keeps you honest.</h1>
+      <p class="lede">Structured practice, drills you log with a tap, stroke feedback from your drill results, a shot visualizer, a tournament shot clock and your own pre-shot routine, all in one app. Add your <a class="on-felt" href="https://railbird.ai/">Railbird</a> data and it shows exactly where you’re improving and what to practice next.</p>
+      <div class="get">
+        <a class="btn primary" href="https://github.com/lvandrews/Electro-Coach/releases/latest/download/electro-coach.apk">Download for Android</a>
+        <a class="btn ghost" href="#iphone">iPhone</a>
+        <a class="btn ghost" href="#computer">Computer</a>
+      </div>
+      <small>Free. No account. Your data stays on your device.</small>
+    </div>
+    <div class="shots" aria-hidden="true">
+      <img src="images/home.jpg" alt="">
+      <img src="images/ghost.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<main>
+<section id="why">
+  <div class="wrap why">
+    <img src="images/icon-512.png" alt="Electro-Coach icon: a 9-ball on green felt" width="120" height="120">
+    <div>
+      <h2>Why I built it</h2>
+      <p>I love pool, and I built Electro-Coach to help me get better. I’m a scientist with a background in statistics, and it started as an analysis of my own Railbird data. I wanted to understand my strengths and weaknesses well enough to know what to practice. The numbers here are built the way I’d build them in my own work. Every shot is measured against its difficulty, and every result comes with a range that says how sure it is.</p>
+      <p>From there it grew into a structured practice plan that keeps me honest, with no shortcuts. And the more I use the app, the more it builds on the valuable data I already get from Railbird.</p>
+      <p>I added other things I like to have on hand, too: my pre-shot routine and a journal for practice sessions and competition days.</p>
+      <p>This is a labor of love and still a work in progress. I hope it helps you too.</p>
+      <p class="sig">— Lela</p>
+    </div>
+  </div>
+</section>
+
+<section id="what">
+  <div class="wrap">
+    <h2>What it does</h2>
+    <p class="sub">Everything works on its own. With Railbird shot data, the analysis and the practice plan come alive.</p>
+    <div class="grid">
+      <div class="card"><div class="ball b1"><span>1</span></div><h3>A plan for every session</h3><p>A warm-up, a stroke drill, a drill aimed at the shots that cost you the most, and a progressive ghost to finish. Block timers learn how long your drills really take you.</p></div>
+      <div class="card"><div class="ball b2"><span>2</span></div><h3>Drills you log with a tap</h3><p>Stroke drills, cue ball control, position patterns and run-outs, each with a diagram and tip positions for the cue ball. A tap takes a second, so you log what matters without leaving the table or breaking your rhythm. Levels move up and down from your results.</p></div>
+      <div class="card"><div class="ball b3"><span>3</span></div><h3>Progressive ghost</h3><p>Run-out practice for 8- or 9-ball, at your pace. Run a quick rack or keep going for hours, collecting data on how you play. The app tracks your break, where racks end, and how often the money ball is the miss. A separate run-out drill for 10-ball (10-ball bowling) is also provided.</p></div>
+      <div class="card"><div class="ball b4"><span>4</span></div><h3>Progress you can trust</h3><p>Your recent play measured against a frozen yardstick of your own shot-making, so real improvement shows instead of getting lost in the mix of shots you happened to take.</p></div>
+      <div class="card"><div class="ball b5"><span>5</span></div><h3>Strengths, weaknesses and heat maps</h3><p>How often you make each kind of shot against how often you should, a shot predictor, your best speeds, and heat maps of where you pot best on the table.</p></div>
+      <div class="card"><div class="ball b6"><span>6</span></div><h3>Your pre-shot routine</h3><p>Written your way and always one tap away, with a home-screen widget on Android. Fully editable.</p></div>
+      <div class="card"><div class="ball b7"><span>7</span></div><h3>Match tools</h3><p>A tournament-style shot clock with extensions, straight pool scoring, and your FargoRate tracked over time.</p></div>
+      <div class="card"><div class="ball b8"><span>8</span></div><h3>Tournament prep</h3><p>A 5, 10 or 15-minute warm-up for the minutes before a match, adjusted to your game. Edit it to make it yours.</p></div>
+      <div class="card"><div class="ball b9"><span>9</span></div><h3>Journal</h3><p>Notes on practice, equipment and competition days, lined up with your numbers, and easy to share with a coach.</p></div>
+      <div class="card"><div class="ball b10"><span>10</span></div><h3>Stroke check</h3><p>Your drill taps add up. When misses lean one way, stop shots roll forward, draw dies at the rail or cuts run thick on one side, the Stroke check shows the pattern, how sure it is, likely causes, what to check and a drill to try. It also tells you whether a change to your stroke or equipment helped.</p></div>
+      <div class="card"><div class="ball b11"><span>11</span></div><h3>Shot visualizer</h3><p>See a cut the way you see it from behind the cue ball: full, ¾, ½ and ¼ ball, at any angle. Or lay out a shot from above to see the ghost ball, the contact point, both ball paths and the parallel shift.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="look">
+  <div class="wrap">
+    <h2>A look inside</h2>
+    <div class="gallery">
+      <figure><img src="images/home.jpg" alt="Home screen" loading="lazy"><figcaption>Home</figcaption></figure>
+      <figure><img src="images/plan.jpg" alt="Practice plan: the next session up front with its length and blocks" loading="lazy"><figcaption>Practice plan</figcaption></figure>
+      <figure><img src="images/ghost.jpg" alt="Progressive ghost tally" loading="lazy"><figcaption>Progressive ghost</figcaption></figure>
+      <figure><img src="images/progress.jpg" alt="Progress" loading="lazy"><figcaption>Progress</figcaption></figure>
+      <figure><img src="images/stroke.jpg" alt="Stroke check: straight-in misses lean left, with likely causes and what to try" loading="lazy"><figcaption>Stroke check</figcaption></figure>
+      <figure><img src="images/visualizer.jpg" alt="Shot visualizer: a half-ball cut seen from behind the cue ball" loading="lazy"><figcaption>Shot visualizer</figcaption></figure>
+      <figure><img src="images/layout.jpg" alt="Shot visualizer: a shot laid out from above with the ghost ball and both paths" loading="lazy"><figcaption>Lay out a shot</figcaption></figure>
+      <figure><img src="images/table.jpg" alt="Table heat map" loading="lazy"><figcaption>Heat map</figcaption></figure>
+      <figure><img src="images/clock.jpg" alt="Shot clock" loading="lazy"><figcaption>Shot clock</figcaption></figure>
+      <figure><img src="images/routine.jpg" alt="Pre-shot routine" loading="lazy"><figcaption>Pre-shot routine</figcaption></figure>
+      <figure><img src="images/prep.jpg" alt="Tournament prep" loading="lazy"><figcaption>Tournament prep</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="railbird">
+  <div class="wrap">
+    <h2>Better with Railbird and poolbilliards.co</h2>
+    <p class="sub"><b>Railbird</b> films your play and measures every shot. Electro-Coach works without it, but it’s at its best with it: your Railbird data powers the progress tracking, the practice plan, the heat maps and the speed profile. If you’re serious about getting better, a Railbird subscription is well worth it. And <b>poolbilliards.co</b> is one of the richest drill libraries there is: subscribe, find drills you enjoy, and work them into your practice.</p>
+    <div class="two">
+      <div class="card">
+        <h3>Railbird is a companion, not a chore</h3>
+        <ul class="plain">
+          <li><b>Film free play.</b> Solo play gives the widest mix of shots, the ones you actually face. Then watch the recording for one thing in your mechanics to work on.</li>
+          <li><b>Film a drill now and then to fill gaps.</b> Copy the drill’s Electro-Coach tag and add it as a tag on the Railbird session, so Electro-Coach knows which drill the shots belong to.</li>
+          <li><b>Film as often as you can, especially at first.</b> The more you record in your first weeks with Railbird, the sooner your numbers come into focus. If one or two 20–30 minute recordings a week is what fits, that’s fine: the picture just sharpens a little more slowly.</li>
+          <li><b>One device is all you need.</b> Film with Railbird in some sessions and tap drills in others. If you have a second phone or tablet, it can film while you tap on your main device, so you collect video and taps at the same time.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Links</h3>
+        <ul class="plain">
+          <li><a href="https://railbird.ai/">Railbird</a></li>
+          <li><a href="https://www.poolbilliards.co/">poolbilliards.co</a></li>
+        </ul>
+        <p class="note">A recommendation from a player who uses both. Electro-Coach isn’t affiliated with either.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="get">
+  <div class="wrap">
+    <h2>Get the app</h2>
+    <p class="sub">Each device keeps its own data. Move it between devices with <b>Settings → Back up</b> and <b>Restore</b>, and back up now and then.</p>
+    <div class="how">
+      <div class="card" id="android">
+        <h3>Android</h3>
+        <ol>
+          <li>On your phone, tap the button below. It downloads <b>electro-coach.apk</b>.</li>
+          <li>Open it and tap <b>Install</b>. Android asks once to allow installs from your browser or Files app.</li>
+          <li>From then on the app updates itself: when a new version is out it offers <b>Update now</b>. Updates keep your data; don’t uninstall to update.</li>
+        </ol>
+        <a class="btn primary" href="https://github.com/lvandrews/Electro-Coach/releases/latest/download/electro-coach.apk">Download for Android</a>
+        <details>
+          <summary>If the first install gets stuck</summary>
+          <ul>
+            <li><b>The browser warns the file might be harmful.</b> Apps from outside the Play Store always get this warning. Choose to download or keep it anyway.</li>
+            <li><b>The download finished but tapping it does nothing.</b> Open your <b>Files</b> app (or <b>Downloads</b>), find electro-coach.apk and tap it there.</li>
+            <li><b>Play Protect doesn’t recognize the developer.</b> That’s because the app isn’t in the Play Store. Choose <b>More details → Install anyway</b>.</li>
+            <li><b>“App not installed”.</b> Usually not enough free space. Don’t uninstall a working copy unless you’ve backed up: uninstalling erases the app’s data.</li>
+          </ul>
+        </details>
+      </div>
+      <div class="card" id="iphone">
+        <h3>iPhone</h3>
+        <ol>
+          <li>On your iPhone, tap <b>Install on iPhone</b> below.</li>
+          <li>The app shows you how to add it to your Home Screen, step by step. It takes a minute. In DuckDuckGo or another browser that can’t do it, you’ll use Safari for that one step.</li>
+          <li>Open Electro-Coach from its new icon: your setup starts there. It runs full screen, works offline once loaded, and your data stays on the phone.</li>
+        </ol>
+        <a class="btn primary" href="app/">Install on iPhone</a>
+        <p class="note">You keep using your usual browser for everything else.</p>
+        <p class="note">The end of a timed practice block sounds only while the app is on screen: iPhone web apps can’t schedule alerts in the background. FargoRate search works in the Android app; on the web, enter your rating by hand.</p>
+      </div>
+      <div class="card" id="computer">
+        <h3>Computer</h3>
+        <ol>
+          <li>Open the web app in Chrome, Edge or Safari.</li>
+          <li>Or download the single-file version and open it from your computer, no internet needed.</li>
+        </ol>
+        <a class="btn primary" href="app/">Open the web app</a>
+        <p class="note"><a href="download/Electro-Coach.html" download>Download the single-file version</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="privacy">
+  <div class="wrap two">
+    <div>
+      <h2>Your data stays yours</h2>
+      <p class="sub">There’s no account. Everything you enter stays on your device, and backups are files you keep. Anonymous usage counts are sent only if you say yes, and never include anything you enter.</p>
+      <p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms of use</a></p>
+    </div>
+    <div>
+      <h2>Feedback and support</h2>
+      <p class="sub">Problems, ideas and drill requests all shape what comes next: use <b>Feedback and drill requests</b> in the app, or email <a href="mailto:feedback@electro-coach.com">feedback@electro-coach.com</a>.</p>
+      <div class="callout"><b>Support Electro-Coach.</b> If it helps you, please consider supporting the work. A way to contribute is coming soon.</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Copyright © 2026 Lela Andrews. All rights reserved.</span>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="mailto:feedback@electro-coach.com">feedback@electro-coach.com</a>
+    <span>Electro-Coach is independent: not affiliated with, sponsored by or endorsed by Railbird, FargoRate or poolbilliards.co.</span>
+  </div>
+</footer>
+</body>
+</html>
