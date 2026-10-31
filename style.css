@@ -128,3 +128,5 @@ footer a { color: var(--ink-2); }
 .update .u-title { margin: 2px 0 6px; font-weight: 700; color: var(--ink); }
 .update ul { margin: 0; padding-left: 1.2em; color: var(--ink-2); font-size: .95rem; }
 .update li + li { margin-top: 4px; }
+#drills-more { padding: 18px 0; }
+#drills-more .sub { margin: 0; }
