@@ -117,3 +117,14 @@ footer a { color: var(--ink-2); }
 /* Shown only on the old address (lvandrews.github.io) while the site moves to electro-coach.com */
 .moved { background: var(--pearl); color: #1b1b1b; padding: 10px 0; font-size: .95rem; border-bottom: 2px solid var(--rail-edge); }
 .moved a { color: inherit; }
+
+/* Latest updates: the release notes in a scrolling window (31 Oct 2026). */
+.updates { max-height: 28rem; overflow-y: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); padding: 4px 18px; overscroll-behavior: contain; }
+.updates:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.update { padding: 14px 0; }
+.update + .update { border-top: 1px solid var(--line); }
+.update h3 { margin: 0; font-size: .9rem; color: var(--muted); font-weight: 600; }
+.update .ver { color: var(--ink); }
+.update .u-title { margin: 2px 0 6px; font-weight: 700; color: var(--ink); }
+.update ul { margin: 0; padding-left: 1.2em; color: var(--ink-2); font-size: .95rem; }
+.update li + li { margin-top: 4px; }
