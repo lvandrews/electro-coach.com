@@ -153,3 +153,14 @@ footer a { color: var(--ink-2); }
 .tested b { color: var(--ink); }
 .tools .card h3 { margin-bottom: 4px; }
 @media (max-width: 640px) { .step img { max-width: 200px; } }
+
+/* Link your tournament calendar (calendar/, 0.1.108): the link as a QR code, made in the page */
+.cal-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.cal-row button { font: inherit; font-weight: 700; cursor: pointer; }
+.cal-input { flex: 1 1 320px; min-width: 0; padding: 11px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--ink); font: inherit; font-size: .95rem; }
+.cal-btn { background: var(--card-2); color: var(--ink); border-color: var(--line); }
+.cal-msg { min-height: 1.5em; }
+.cal-out { background: #fff; display: inline-block; padding: 8px; border-radius: 12px; }
+.cal-out[hidden] { display: none; }
+.cal-qr { display: block; width: min(100%, 360px); height: auto; image-rendering: pixelated; }
+.doc p.small { font-size: .9rem; }
