@@ -15,17 +15,22 @@
 <nav aria-label="Sections"><a href="../#get">Get the app</a><a href="../privacy.html">Privacy</a><a href="../terms.html">Terms</a></nav></div></header>
 <main><section><div class="wrap doc">
 <h1>Link your tournament calendar</h1>
-<p>For the Android app’s <b>Settings → Tournament calendar</b>: this page turns your Google Calendar link into a QR code for the app to scan, so you don’t have to send the link to your phone.</p>
+<p>For the Android app’s <b>Settings → Tournament calendar</b>: this page turns your pool calendar’s link into a QR code for the app to scan, so you don’t have to send the link to your phone.</p>
 <ol>
-<li>In Google Calendar on this computer: <b>Settings</b> → your pool calendar → <b>Integrate calendar</b> → copy <b>Secret address in iCal format</b>.</li>
+<li>Copy your pool calendar’s link:
+<ul>
+<li><b>Google Calendar:</b> Settings → your pool calendar → Integrate calendar → <b>Secret address in iCal format</b>.</li>
+<li><b>Outlook:</b> Settings → Calendar → Shared calendars → <b>Publish a calendar</b> (your pool calendar, Can view titles and locations) → Publish → the <b>ICS link</b>.</li>
+<li><b>Apple (iCloud):</b> at icloud.com/calendar, the share button beside your pool calendar → <b>Public Calendar</b> → Copy Link.</li>
+</ul></li>
 <li>Paste it here and tap <b>Make the QR code</b>.</li>
 <li>In the app: <b>Settings → Tournament calendar → Scan a QR code</b>, and point the phone at the code.</li>
 </ol>
-<p class="cal-row"><input id="cal-link" class="cal-input" type="text" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Secret address in iCal format" placeholder="https://calendar.google.com/calendar/ical/…/basic.ics">
+<p class="cal-row"><input id="cal-link" class="cal-input" type="text" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Your calendar’s link" placeholder="Your calendar’s secret link">
 <button id="cal-make" class="btn primary" type="button">Make the QR code</button> <button id="cal-clear" class="btn cal-btn" type="button">Clear</button></p>
 <p id="cal-msg" class="cal-msg" role="status"></p>
 <div id="cal-out" class="cal-out" hidden><canvas id="cal-qr" class="cal-qr" aria-label="QR code of your calendar link"></canvas></div>
-<p class="small">The link is a secret: anyone with it can read that calendar. This page works entirely in your browser. It sends nothing anywhere (it isn’t even counted as a visit), keeps nothing, and clears the code when you tap Clear, after 5 minutes, or when you close the page. Copying the link puts it on your clipboard. If your clipboard syncs to other devices (Windows: Settings → System → Clipboard), turn that off before you copy it, and delete the link from your clipboard history (Windows+V) when you’re done. If the link has already gone somewhere it shouldn’t, <b>Reset</b> it in the same Google Calendar settings and bring the new one over the same way, with sync off.</p>
+<p class="small">The link is a secret: anyone with it can read that calendar. This page works entirely in your browser. It sends nothing anywhere (it isn’t even counted as a visit), keeps nothing, and clears the code when you tap Clear, after 5 minutes, or when you close the page. Copying the link puts it on your clipboard. If your clipboard syncs to other devices (Windows: Settings → System → Clipboard), turn that off before you copy it, and delete the link from your clipboard history (Windows+V) when you’re done. If the link has already gone somewhere it shouldn’t, make a new one (Google: <b>Reset</b> in the same settings; Outlook: <b>Reset links</b>; Apple: turn Public Calendar off, which stops the link working; if turning it back on gives the same link, move your events to a new calendar) and bring it over the same way, with sync off.</p>
 </div></section></main>
 <footer><div class="wrap"><span>Copyright © 2026 Lela Andrews. All rights reserved.</span><a href="../">Home</a><a href="../privacy.html">Privacy</a><a href="../terms.html">Terms</a></div></footer>
 <script src="qr.js" defer></script>
