@@ -144,6 +144,11 @@ footer a { color: var(--ink-2); }
 .step { display: flex; flex-direction: column; }
 .step p { flex: 1; }
 .step img { width: 100%; max-width: 240px; height: auto; margin: 14px auto 0; border-radius: 14px; border: 2px solid var(--line); }
+/* The fifth step (12 Nov 2026, the tournament week) spans the row, with two pictures side by side. */
+.step.wide { grid-column: 1 / -1; }
+.step.wide p { max-width: 75ch; }
+.step-pair { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.step-pair img { margin: 14px 0 0; }
 .whytap { margin-top: 18px; background: var(--card-2); border-left: 4px solid var(--accent); border-radius: 8px; padding: 16px 18px; color: var(--ink-2); }
 .whytap h3 { margin: 0 0 6px; color: var(--ink); font-size: 1.1rem; }
 .whytap .lead { color: var(--ink); font-weight: 600; margin: 0 0 6px; }
