@@ -169,3 +169,6 @@ footer a { color: var(--ink-2); }
 .cal-out[hidden] { display: none; }
 .cal-qr { display: block; width: min(100%, 360px); height: auto; image-rendering: pixelated; }
 .doc p.small { font-size: .9rem; }
+/* Practice and play (0.1.129): the closing paragraph of Practice with purpose, and its line in How it works */
+.closing { max-width: 820px; margin: 22px auto 0; line-height: 1.6; }
+.pp-note { margin: 14px 0 0; }
