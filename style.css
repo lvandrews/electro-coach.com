@@ -157,6 +157,16 @@ footer a { color: var(--ink-2); }
 .tested { color: var(--ink-2); max-width: 52em; }
 .tested b { color: var(--ink); }
 .tools .card h3 { margin-bottom: 4px; }
+/* Who it's for (0.2.16, Lela's notes of 22 Nov 2026): practice, play and everyone, with a tap drill shown beside them. */
+.for { display: grid; grid-template-columns: 1fr minmax(180px, 240px); gap: 20px; align-items: start; }
+.for-cards { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.for-cards ul { margin: 6px 0 0; padding-left: 1.15em; color: var(--ink-2); font-size: .97rem; }
+.for-cards li { margin: 5px 0; }
+.tapdrill { margin: 0; }
+.tapdrill img { width: 100%; height: auto; border-radius: 14px; border: 2px solid var(--line); }
+.tapdrill figcaption { font-size: .9rem; color: var(--ink-2); margin-top: 8px; }
+.tapdrill figcaption b { color: var(--ink); }
+@media (max-width: 760px) { .for { grid-template-columns: 1fr; } .tapdrill { max-width: 260px; margin: 0 auto; } }
 @media (max-width: 640px) { .step img { max-width: 200px; } }
 
 /* Link your tournament calendar (calendar/, 0.1.108): the link as a QR code, made in the page */
