@@ -163,6 +163,11 @@ footer a { color: var(--ink-2); }
 .for-cards ul { margin: 6px 0 0; padding-left: 1.15em; color: var(--ink-2); font-size: .97rem; }
 .for-cards li { margin: 5px 0; }
 .tapdrill { margin: 0; }
+/* What your taps tell you (0.2.16, Lela's ticks of 22 Nov 2026). */
+.points { margin: 0; padding-left: 1.15em; color: var(--ink-2); }
+.points li { margin: 10px 0; }
+.points li:first-child { margin-top: 0; }
+.points li b { color: var(--ink); }
 .tapdrill img { width: 100%; height: auto; border-radius: 14px; border: 2px solid var(--line); }
 .tapdrill figcaption { font-size: .9rem; color: var(--ink-2); margin-top: 8px; }
 .tapdrill figcaption b { color: var(--ink); }
