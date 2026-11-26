@@ -1,4 +1,4 @@
-const e=`Electro-Coach uses these open-source packages. Each is listed with its version, its licence and the licence text from the package. Electro-Coach itself is not open source.
+var e=`Electro-Coach uses these open-source packages. Each is listed with its version, its licence and the licence text from the package. Electro-Coach itself is not open source.
 
 The Android app is also built with Android libraries from Google (AndroidX), under the Apache License 2.0, whose text is given with jsqr below.
 
@@ -506,7 +506,7 @@ Apache License
    limitations under the License.
 
 ========================================
-papaparse 5.7.0 (MIT)
+papaparse 5.7.1 (MIT)
 ========================================
 
 The MIT License (MIT)
@@ -531,7 +531,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ========================================
-preact 10.29.8 (MIT)
+preact 11.2.0 (MIT)
 ========================================
 
 The MIT License (MIT)
