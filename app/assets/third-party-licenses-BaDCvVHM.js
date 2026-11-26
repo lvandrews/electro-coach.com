@@ -3,7 +3,7 @@ const e=`Electro-Coach uses these open-source packages. Each is listed with its 
 The Android app is also built with Android libraries from Google (AndroidX), under the Apache License 2.0, whose text is given with jsqr below.
 
 ========================================
-@capacitor/android 8.5.3 (MIT)
+@capacitor/android 8.6.2 (MIT)
 ========================================
 
 MIT License
@@ -57,7 +57,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ========================================
-@capacitor/core 8.5.3 (MIT)
+@capacitor/core 8.6.2 (MIT)
 ========================================
 
 MIT License
